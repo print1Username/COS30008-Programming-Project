@@ -1,7 +1,12 @@
 {
     "cmake.buildDirectory": "${workspaceFolder}/build",
     "cmake.configureOnOpen": false,
-    "cmake.generator": "NMake Makefiles",
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.configureSettings": {
+        "CMAKE_C_COMPILER": "C:/msys64/ucrt64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "C:/msys64/ucrt64/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "C:/msys64/ucrt64/bin/mingw32-make.exe"
+    },
     "cmake.debugConfig": {
         "type": "cppvsdbg",
         "request": "launch",
