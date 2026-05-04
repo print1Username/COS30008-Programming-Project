@@ -1,0 +1,15 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureOnOpen": false,
+    "cmake.generator": "NMake Makefiles",
+    "cmake.debugConfig": {
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/bin/COS30008_Programming_Project.exe",
+        "cwd": "${workspaceFolder}/build/bin",
+        "stopAtEntry": false,
+        "console": "integratedTerminal"
+    },
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64"
+}
