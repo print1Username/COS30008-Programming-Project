@@ -8,18 +8,27 @@ The core narrative centers around the player, a programmer, who is literally sna
 
 Gameplay involves navigating a labyrinthian environment: The player must strategically choose between different rooms, each presenting a unique combat challenge defined by varying monster quantities and threat levels. The ultimate objective is to successfully identify and secure the correct escape route needed to safely return home.
 
-## Game Setting
-
+## Basic Setup
+1. Install MSYS2
+  Download and install MSYS2, then open "MSYS2 MinGW64"
+1. Open MSYS2 MinGW64 terminal
+1. Install GCC:
 ```bash
-# Build exe file
+pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+
+```
+Press **Enter** to install all package
+
+4. In you Powershell or CMD terminal, run:
+```bash
+# Build exe
 g++ src/*.cpp -Iinclude -I external/SFML-3.0.1-mingw/include -L external/SFML-3.0.1-mingw/lib -o ./external/SFML-3.0.1-mingw/bin/app.exe -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio 
-# Run exe file
+# Run exe
 ./external/SFML-3.0.1-mingw/bin/app.exe
 
 ```
 
 ## Source
-
 ### Backgound Music
 [NoCopyrightSounds Official Website](https://ncs.io/)
 
