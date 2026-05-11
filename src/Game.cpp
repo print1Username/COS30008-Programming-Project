@@ -251,6 +251,8 @@ float Game::GetDoorPosY(int index) {
         return 500.0f;
     else if ( index == 3 )
 		return 300.0f;
+
+    return 0.f; // default
 }
 
 Player & Game::GetPlayerRef() {

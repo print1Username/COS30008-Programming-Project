@@ -10,6 +10,14 @@ Gameplay involves navigating a labyrinthian environment: The player must strateg
 
 ## Game Setting
 
+```bash
+# Build exe file
+g++ src/*.cpp -Iinclude -I external/SFML-3.0.1-mingw/include -L external/SFML-3.0.1-mingw/lib -o app -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+# Run exe file
+./app.exe
+
+```
+
 ## Source
 
 ### Backgound Music
