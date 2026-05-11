@@ -3,7 +3,7 @@
 
 
 void Windows::LoadIcon() {
-    if ( !icon.loadFromFile("icon.png") ) {
+    if ( !icon.loadFromFile("assets/images/icon.png") ) {
         cout << "Failed to load icon.png" << endl;
     } else {
         window.setIcon(icon);
@@ -14,17 +14,17 @@ void Windows::LoadFont() {
     // Fonts are loaded in the member initializer list
     // Additional error handling can be added here if necessary
     // Download Link: https://fonts.google.com/specimen/Roboto
-    if ( !fontSemiBoldItalic.openFromFile("Roboto/static/Roboto-SemiBoldItalic.ttf") )
+    if ( !fontSemiBoldItalic.openFromFile("assets/Roboto/static/Roboto-SemiBoldItalic.ttf") )
         cout << "Failed to load SemiBoldItalic" << endl;
-    if ( !fontSemiBold.openFromFile("Roboto/static/Roboto-SemiBold.ttf") )
+    if ( !fontSemiBold.openFromFile("assets/Roboto/static/Roboto-SemiBold.ttf") )
         cout << "Failed to load SemiBold" << endl;
-    if ( !fontRegular.openFromFile("Roboto/static/Roboto-Regular.ttf") )
+    if ( !fontRegular.openFromFile("assets/Roboto/static/Roboto-Regular.ttf") )
         cout << "Failed to load Regular" << endl;
-	if ( !fontLight.openFromFile("Roboto/static/Roboto-Light.ttf") )
+	if ( !fontLight.openFromFile("assets/Roboto/static/Roboto-Light.ttf") )
 		cout << "Failed to load Light" << endl;
-	if ( !fontThin.openFromFile("Roboto/static/Roboto-Thin.ttf") )
+	if ( !fontThin.openFromFile("assets/Roboto/static/Roboto-Thin.ttf") )
 		cout << "Failed to load Thin" << endl;
-    if ( !fontThinItalic.openFromFile("Roboto/static/Roboto-ThinItalic.ttf") )
+    if ( !fontThinItalic.openFromFile("assets/Roboto/static/Roboto-ThinItalic.ttf") )
         cout << "Failed to load ThinItalic" << endl;
 }
 
@@ -39,7 +39,7 @@ void Windows::LoadMusic(int num) {
 
     switch ( num ) {
         case 1:
-        if ( !teamo.openFromFile("teamo.mp3") ) {
+        if ( !teamo.openFromFile("assets/audio/teamo.mp3") ) {
             cout << "Failed to load teamo.mp3" << endl;
         } else {
             teamo.setLooping(true);
@@ -49,7 +49,7 @@ void Windows::LoadMusic(int num) {
         break;
 
         case 2:
-        if ( !ayuda.openFromFile("ayuda.mp3") ) {
+        if ( !ayuda.openFromFile("assets/audio/ayuda.mp3") ) {
             cout << "Failed to load ayuda.mp3" << endl;
         } else {
             ayuda.setLooping(true);
@@ -59,7 +59,7 @@ void Windows::LoadMusic(int num) {
         break;
 
         case 3:
-        if ( !harinezumi.openFromFile("harinezumi.mp3") ) {
+        if ( !harinezumi.openFromFile("assets/audio/harinezumi.mp3") ) {
             cout << "Failed to load harinezumi.mp3" << endl;
         } else {
             harinezumi.setLooping(true);
@@ -75,16 +75,16 @@ void Windows::LoadMusic(int num) {
 }
 
 void Windows::LoadImage() {
-    if ( !start.loadFromFile("start.png") ) {
+    if ( !start.loadFromFile("assets/images/start.png") ) {
         cout << "Failed to load start.png" << endl;
     }
-    if ( !bad.loadFromFile("bad.png") ) {
+    if ( !bad.loadFromFile("assets/images/bad.png") ) {
         cout << "Failed to load bad.png" << endl;
     }
-    if ( !good.loadFromFile("good.png") ) {
+    if ( !good.loadFromFile("assets/images/good.png") ) {
         cout << "Failed to load good.png" << endl;
 	}
-    if ( !dead.loadFromFile("dead.png") ) {
+    if ( !dead.loadFromFile("assets/images/dead.png") ) {
         cout << "Failed to load dead.png" << endl;
 	}
 }
