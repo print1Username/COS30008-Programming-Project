@@ -3,7 +3,7 @@
 Game::Game() :
 	player("Player", 100, 5),
 	dungeon(),
-    setting("config.json") {
+    setting("./assets/data/config.json") {
 
 	player.setPosition(20.f, 70.f);
 }
