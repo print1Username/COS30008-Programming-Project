@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/include",
-                "${workspaceFolder}/external/SFML-3.0.1/include",
+                "${workspaceFolder}/external/SFML-3.0.1-mingw/include",
                 "${workspaceFolder}/src"
             ],
             "defines": [
@@ -16,9 +16,9 @@
             "windowsSdkVersion": "10.0.26100.0",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64",
+            "intelliSenseMode": "windows-gcc-x64",
             "configurationProvider": "ms-vscode.cmake-tools",
-            "compilerPath": "cl.exe"
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe"
         }
     ],
     "version": 4
