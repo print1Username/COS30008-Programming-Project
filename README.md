@@ -35,12 +35,12 @@ g++ src/*.cpp -Iinclude -I external/SFML-3.0.1-mingw/include -L external/SFML-3.
 #### Music Name:
 
 [AYUDA: by MXRCVRY](https://ncs.io/AYUDA)
-
+\
 [teamo: by c8o](https://ncs.io/teamo)
-
+\
 [harinezumi: by waera](https://ncs.io/harinezumi)
 
 ### Image (Generate by Gemini: Nano Banana Pro)
 [Gemini Google](https://gemini.google.com)
-
+\
 [Google AI Studio](https://aistudio.google.com/)
