@@ -12,9 +12,9 @@ Gameplay involves navigating a labyrinthian environment: The player must strateg
 
 ```bash
 # Build exe file
-g++ src/*.cpp -Iinclude -I external/SFML-3.0.1-mingw/include -L external/SFML-3.0.1-mingw/lib -o app -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+g++ src/*.cpp -Iinclude -I external/SFML-3.0.1-mingw/include -L external/SFML-3.0.1-mingw/lib -o ./external/SFML-3.0.1-mingw/bin/app.exe -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio 
 # Run exe file
-./app.exe
+./external/SFML-3.0.1-mingw/bin/app.exe
 
 ```
 
